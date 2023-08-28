@@ -7,7 +7,13 @@ using System.Resources;
 
 var _context = new AppDbContextEf();
 
-foreach(var stu in _context.Student.ToList())
+Main()
+void Main()
+{
+    
+}
+
+foreach (var stu in _context.Student.ToList())
 {
     Console.WriteLine(stu.ToString());  
 }
